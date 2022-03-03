@@ -56,6 +56,7 @@ public class Game {
                 return;
             }
             gameBoard.Draw();
+            System.exit(0);
         }
 
 
@@ -64,13 +65,12 @@ public class Game {
     }
 
     private boolean CheckForWin() {
-        //Implement this method.
+
         return false;
     }
 
     private boolean IsFilled(){
-        //Implement this method.
-        return false;
+       return true;
     }
 
 }
